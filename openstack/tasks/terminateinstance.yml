@@ -1,0 +1,11 @@
+---
+- name: "Destruindo uma instância no OpenStack"
+  os_server:
+   state: absent
+   auth:
+     auth_url: "{{region.url1}}"
+     username: "{{login.1}}"
+     password: "{{pass.1}}"
+     project_name: "{{project.1}}"
+   region_name: "{{region.1}}"
+   name: "{{name.1}}"

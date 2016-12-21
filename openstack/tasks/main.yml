@@ -1,0 +1,5 @@
+---
+- include: createinstance.yml
+  tags: createinstance
+- include: terminateinstance.yml
+  tags: terminateinstance

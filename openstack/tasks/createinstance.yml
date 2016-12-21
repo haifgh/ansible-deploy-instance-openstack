@@ -1,0 +1,23 @@
+---
+- name: "Criando uma instância no OpenStack"
+  os_server:
+   state: present
+   auth:
+     auth_url: "{{region.url1}}"
+     username: "{{login.1}}"
+     password: "{{pass.1}}"
+     project_name: "{{project.1}}"
+   region_name: "{{region.1}}"
+   image: "{{image.1}}"
+   name: "{{name.1}}"
+   key_name: "{{key.1}}"
+   timeout: 900
+   flavor: "{{flavor.1}}"
+   nics:
+   - net-name: "{{nic.1}}"
+   floating_ips:
+    - "{{ip.2}}"
+   boot_from_volume: True
+   terminate_volume: True
+   volume_size: "{{volume.1}}"
+

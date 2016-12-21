@@ -1,0 +1,5 @@
+---
+- name: Openstack Instance
+  hosts: localhost
+  roles:
+    - { role: openstack }
