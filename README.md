@@ -8,7 +8,6 @@
 # mkdir projeto_openstack
 # cd projeto_openstack
 # ansible-galaxy init openstack
-- openstack was created successfully
 </pre>
 
 Criando a instância 
