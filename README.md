@@ -11,7 +11,7 @@
 - openstack was created successfully
 </pre>
 
-
+- Criando a instância 
 <pre>
 # ansible-playbook site.yml --tags createinstance
  [WARNING]: Host file not found: /etc/ansible/hosts
@@ -31,6 +31,7 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=2    changed=1    unreachable=0    failed=0 
 </pre>
 
+- Deletando a instância
 <pre>
 # ansible-playbook site.yml --tags terminateinstance
  [WARNING]: Host file not found: /etc/ansible/hosts
