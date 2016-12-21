@@ -1,6 +1,18 @@
 # ansible-deploy-instance-openstack
 
-
+- Pacotes necessários para o Ansible (CentOS7)
+<pre>
+# yum install curl gcc openssl-devel python-devel unzip git -y
+</pre>
+- Instalando o Ansible
+<pre>
+# pip install ansible
+# ansible --version
+ansible 2.2.0.0
+  config file = 
+  configured module search path = Default w/o overrides
+</pre>
+<hr>
 - Ajustando o ambiente
 <pre>
 # mkdir /etc/ansible
