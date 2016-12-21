@@ -5,10 +5,20 @@
 <pre>
 # mkdir /etc/ansible
 # cd /etc/ansible
-# mkdir projeto_openstack
-# cd projeto_openstack
-# ansible-galaxy init openstack
 </pre>
+
+<pre>
+# git clone https://github.com/vandocouto/ansible-deploy-instance-openstack.git
+</pre>
+
+<pre>
+# cd ansible-deploy-instance-openstack/
+</pre>
+
+<pre>
+# vim openstack/vars/main.yml
+</pre>
+
 
 Criando a instância 
 <pre>
